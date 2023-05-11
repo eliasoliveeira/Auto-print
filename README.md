@@ -15,9 +15,9 @@ Para executar este script, você precisará atender aos seguintes requisitos:
 
 Para instalar as bibliotecas necessárias, abra o terminal do seu sistema operacional e digite os seguintes comandos:
 
-´pip install selenium´
-´pip install whatsapp_api´
-´pip install Pillow´
+```pip install selenium```
+```pip install whatsapp_api```
+```pip install Pillow```
 
 ## Utilização
 
@@ -28,7 +28,7 @@ Para usar o script, siga os passos abaixo:
 3. Abra o terminal do seu sistema operacional e navegue até o diretório onde o script está salvo.
 4. Digite o seguinte comando para executar o script:
 
-´python imprimir_imagens.py´
+```python imprimir_imagens.py```
 
 5. O script abrirá uma janela do navegador e solicitará que você escaneie o código QR para acessar o WhatsApp Web. Escaneie o código com o seu celular.
 6. Após escanear o código, o script iniciará a leitura das mensagens recebidas. Todas as imagens recebidas no grupo especificado serão impressas automaticamente na impressora conectada ao notebook.
