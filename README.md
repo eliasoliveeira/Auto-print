@@ -11,6 +11,42 @@ Para executar este script, você precisará atender aos seguintes requisitos:
 - Uma conta do WhatsApp com acesso ao WhatsApp Web
 - Uma impressora conectada ao notebook
 
+## Instalando e configurando o webdriver
+
+Antes de executar o script, é necessário instalar o webdriver do navegador que será usado para acessar o WhatsApp Web. O webdriver é uma ferramenta que permite a automação de testes em navegadores web.
+
+1. Faça o download do webdriver do navegador que deseja usar:
+   * [Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+   * [Firefox](https://github.com/mozilla/geckodriver/releases)
+   * [Safari](https://webkit.org/blog/6900/webdriver-support-in-safari-10/)
+   * [Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
+   * [Opera](https://github.com/operasoftware/operachromiumdriver/releases)
+
+   Certifique-se de escolher a versão correta do webdriver para a versão do navegador que você tem instalado em seu computador.
+
+2. Extraia o arquivo do webdriver para um local de sua escolha em seu computador. Recomenda-se que seja em uma pasta dedicada para este fim.
+
+3. Adicione o diretório do webdriver ao PATH do sistema. Isso permite que o sistema operacional encontre o arquivo do webdriver quando você executar o script. Para fazer isso, siga as etapas abaixo:
+
+   * No Windows:
+     * Clique com o botão direito do mouse em "Meu Computador" ou "Este PC" e selecione "Propriedades".
+     * Clique em "Configurações avançadas do sistema" e depois em "Variáveis de ambiente".
+     * Na seção "Variáveis do sistema", encontre a variável "Path" e clique em "Editar".
+     * Clique em "Novo" e insira o caminho completo para a pasta onde você extraiu o webdriver. Clique em "OK" para salvar as alterações.
+
+   * No MacOS ou Linux:
+     * Abra o terminal e digite o seguinte comando:
+       ```
+       export PATH=$PATH:/caminho/para/o/webdriver
+       ```
+     * Substitua "/caminho/para/o/webdriver" pelo caminho completo para a pasta onde você extraiu o webdriver.
+
+4. Verifique se o webdriver está configurado corretamente, digitando o seguinte comando no terminal:
+
+```webdriver --version```
+
+Se tudo estiver correto, o terminal deverá mostrar a versão do webdriver instalado.
+
 ## Instalação
 
 Para instalar as bibliotecas necessárias, abra o terminal do seu sistema operacional e digite os seguintes comandos:
