@@ -38,7 +38,7 @@ Para instalar as bibliotecas necessárias, abra o terminal do seu sistema operac
 
 Para usar o script, siga os passos abaixo:
 
-1. Faça o download do arquivo `imprimir_imagens.py` para o seu computador.
+1. Faça o download do arquivo `imprimir_imagens.py` para o seu computador
 2. Abra o arquivo `imprimir_imagens.py` em um editor de texto e edite as variáveis `chrome_driver_path` e `image_folder_path` com os caminhos corretos para o driver do navegador e para a pasta onde deseja salvar as imagens, respectivamente.
 3. Abra o terminal do seu sistema operacional e navegue até o diretório onde o script está salvo.
 4. Digite o seguinte comando para executar o script:
