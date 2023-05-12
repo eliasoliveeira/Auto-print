@@ -8,8 +8,28 @@ from whatsapp_api import WhatsApp
 from PIL import Image
 import os
 
+# Pergunta qual navegador será utilizado
+print("Selecione o navegador:")
+print("1. Chrome")
+print("2. Firefox")
+print("3. Safari")
+print("4. Edge")
+print("5. Opera")
+
+# Lê a opção selecionada
+opcao_navegador = int(input())
+
 # Define o caminho do driver do navegador
-chrome_driver_path = "/caminho/do/driver/chromedriver"
+if opcao_navegador == 1:
+    chrome_driver_path = "/caminho/do/driver/chromedriver"
+elif opcao_navegador == 2:
+    chrome_driver_path = "/caminho/do/driver/geckodriver"
+elif opcao_navegador == 3:
+    chrome_driver_path = "/caminho/do/driver/safaridriver"
+elif opcao_navegador == 4:
+    chrome_driver_path = "/caminho/do/driver/msedgedriver"
+elif opcao_navegador == 5:
+    chrome_driver_path = "/caminho/do/driver/operadriver"
 
 # Define o caminho da pasta onde serão salvas as imagens
 image_folder_path = "/caminho/da/pasta/das/imagens"

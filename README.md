@@ -1,15 +1,15 @@
 # Script para imprimir imagens recebidas em um grupo do WhatsApp
 
-Este é um script em Python que permite imprimir automaticamente todas as imagens enviadas em um grupo do WhatsApp. O script utiliza a API do WhatsApp Web Automation para ler as mensagens recebidas e a biblioteca Pillow para imprimir as imagens em uma impressora conectada ao notebook.
+Este é um script em Python que permite imprimir automaticamente todas as imagens enviadas em um grupo do WhatsApp. O script utiliza a API do WhatsApp Web Automation para ler as mensagens recebidas e a biblioteca Pillow para imprimir as imagens em uma impressora conectada ao computador
 
 ## Requisitos
 
 Para executar este script, você precisará atender aos seguintes requisitos:
 
 - Um computador com sistema operacional Windows, Mac ou Linux
-- O Python 3.x instalado no computador
+- O [Python](https://www.python.org/downloads/) 3.x instalado no computador
 - Uma conta do WhatsApp com acesso ao WhatsApp Web
-- Uma impressora conectada ao notebook
+- Uma impressora conectada ao computador
 
 ## Instalando e configurando o webdriver
 
@@ -24,28 +24,7 @@ Antes de executar o script, é necessário instalar o webdriver do navegador que
 
    Certifique-se de escolher a versão correta do webdriver para a versão do navegador que você tem instalado em seu computador.
 
-2. Extraia o arquivo do webdriver para um local de sua escolha em seu computador. Recomenda-se que seja em uma pasta dedicada para este fim.
-
-3. Adicione o diretório do webdriver ao PATH do sistema. Isso permite que o sistema operacional encontre o arquivo do webdriver quando você executar o script. Para fazer isso, siga as etapas abaixo:
-
-   * No Windows:
-     * Clique com o botão direito do mouse em "Meu Computador" ou "Este PC" e selecione "Propriedades".
-     * Clique em "Configurações avançadas do sistema" e depois em "Variáveis de ambiente".
-     * Na seção "Variáveis do sistema", encontre a variável "Path" e clique em "Editar".
-     * Clique em "Novo" e insira o caminho completo para a pasta onde você extraiu o webdriver. Clique em "OK" para salvar as alterações.
-
-   * No MacOS ou Linux:
-     * Abra o terminal e digite o seguinte comando:
-       ```
-       export PATH=$PATH:/caminho/para/o/webdriver
-       ```
-     * Substitua "/caminho/para/o/webdriver" pelo caminho completo para a pasta onde você extraiu o webdriver.
-
-4. Verifique se o webdriver está configurado corretamente, digitando o seguinte comando no terminal:
-
-```webdriver --version```
-
-Se tudo estiver correto, o terminal deverá mostrar a versão do webdriver instalado.
+2. Extraia o arquivo do webdriver para um local de sua escolha em seu computador. Recomenda-se que seja na mesma pasta do `imprimir_imagens.py`
 
 ## Instalação
 
@@ -66,8 +45,9 @@ Para usar o script, siga os passos abaixo:
 
 ```python imprimir_imagens.py```
 
-5. O script abrirá uma janela do navegador e solicitará que você escaneie o código QR para acessar o WhatsApp Web. Escaneie o código com o seu celular.
-6. Após escanear o código, o script iniciará a leitura das mensagens recebidas. Todas as imagens recebidas no grupo especificado serão impressas automaticamente na impressora conectada ao notebook.
+5. Digite o número correspondente ao navegador que você está utilizando
+6. O script abrirá uma janela do navegador e solicitará que você escaneie o código QR para acessar o WhatsApp Web. Escaneie o código com o seu celular.
+7. Após escanear o código, o script iniciará a leitura das mensagens recebidas. Todas as imagens recebidas no grupo especificado serão impressas automaticamente na impressora conectada ao computador.
 
 ## Limitações
 
