@@ -27,12 +27,12 @@ elif opcao_navegador == 2:
 elif opcao_navegador == 3:
     chrome_driver_path = "/caminho/do/driver/safaridriver"
 elif opcao_navegador == 4:
-    chrome_driver_path = "/caminho/do/driver/msedgedriver"
+    chrome_driver_path = "./msedgedriver.exe"
 elif opcao_navegador == 5:
     chrome_driver_path = "/caminho/do/driver/operadriver"
 
 # Define o caminho da pasta onde serão salvas as imagens
-image_folder_path = "/caminho/da/pasta/das/imagens"
+image_folder_path = "C:/Users/Elias/Documents/Cursos/Projetos/Auto-print/IMAGES"
 
 # Inicializa o serviço do navegador
 service = Service(chrome_driver_path)
@@ -58,7 +58,7 @@ whatsapp = WhatsApp()
 whatsapp.login()
 
 # Define o nome do grupo que deseja imprimir as mensagens
-grupo_desejado = "Nome do Grupo"
+grupo_desejado = "TESTE"
 
 # Define uma função para imprimir as imagens
 def print_image(image_path):

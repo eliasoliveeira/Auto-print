@@ -1,3 +1,5 @@
+# EM DESENVOLVIMENTO!"
+
 # Script para imprimir imagens recebidas em um grupo do WhatsApp
 
 Este é um script em Python que permite imprimir automaticamente todas as imagens enviadas em um grupo do WhatsApp. O script utiliza a API do WhatsApp Web Automation para ler as mensagens recebidas e a biblioteca Pillow para imprimir as imagens em uma impressora conectada ao computador
@@ -39,7 +41,7 @@ Para instalar as bibliotecas necessárias, abra o terminal do seu sistema operac
 Para usar o script, siga os passos abaixo:
 
 1. Faça o download do arquivo `imprimir_imagens.py` para o seu computador.
-2. Abra o arquivo `imprimir_imagens.py` em um editor de texto e edite as variáveis `chrome_driver_path` e `image_folder_path` com os caminhos corretos para o driver do navegador e para a pasta onde deseja salvar as imagens, respectivamente.
+2. Abra o arquivo `imprimir_imagens.py` em um editor de texto e edite as variáveis `chrome_driver_path`, `image_folder_path` e `grupo_desejado` com os caminhos corretos para o driver do navegador, para a pasta onde deseja salvar as imagens e o nome EXATO do grupo, respectivamente.
 3. Abra o terminal do seu sistema operacional e navegue até o diretório onde o script está salvo.
 4. Digite o seguinte comando para executar o script:
 
