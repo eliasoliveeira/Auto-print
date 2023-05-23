@@ -1,4 +1,4 @@
-# EM DESENVOLVIMENTO!"
+# EM DESENVOLVIMENTO!
 
 # Script para imprimir imagens recebidas em um grupo do WhatsApp
 
